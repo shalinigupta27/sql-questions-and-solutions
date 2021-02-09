@@ -1,13 +1,13 @@
 Table: Scores
 
-+---------------+---------+
+
 | Column Name   | Type    |
-+---------------+---------+
+|:----------: | :---------: |
 | player_name   | varchar |
 | gender        | varchar |
 | day           | date    |
 | score_points  | int     |
-+---------------+---------+
+
 (gender, day) is the primary key for this table.
 A competition is held between females team and males team.
 Each row of this table indicates that a player_name and with gender has scored score_point in someday.
@@ -20,9 +20,9 @@ Order the result table by gender and day
 The query result format is in the following example:
 
 Scores table:
-+-------------+--------+------------+--------------+
+
 | player_name | gender | day        | score_points |
-+-------------+--------+------------+--------------+
+|-----------| :-----: |------------| :----------:   |
 | Aron        | F      | 2020-01-01 | 17           |
 | Alice       | F      | 2020-01-07 | 23           |
 | Bajrang     | M      | 2020-01-07 | 7            |
@@ -32,11 +32,11 @@ Scores table:
 | Jose        | M      | 2019-12-18 | 2            |
 | Priya       | F      | 2019-12-31 | 23           |
 | Priyanka    | F      | 2019-12-30 | 17           |
-+-------------+--------+------------+--------------+
+
 Result table:
-+--------+------------+-------+
+
 | gender | day        | total |
-+--------+------------+-------+
+|--------|------------|-------|
 | F      | 2019-12-30 | 17    |
 | F      | 2019-12-31 | 40    |
 | F      | 2020-01-01 | 57    |
@@ -46,7 +46,7 @@ Result table:
 | M      | 2019-12-30 | 26    |
 | M      | 2019-12-31 | 29    |
 | M      | 2020-01-07 | 36    |
-+--------+------------+-------+
+
 
 For females team:
 First day is 2019-12-30, Priyanka scored 17 points and the total score for the team is 17.

@@ -13,7 +13,7 @@ The shortest distance is '1' obviously, which is from point '-1' to '0'. So the 
  
 
 | shortest|
-|---------|
+|:-------:|
 | 1       |
  
 Note: Every point is unique, which means there is no duplicates in table point.

@@ -1,12 +1,11 @@
 Table: ActorDirector
 
-+-------------+---------+
 | Column Name | Type    |
-+-------------+---------+
+| :---        |:----:   |
 | actor_id    | int     |
 | director_id | int     |
 | timestamp   | int     |
-+-------------+---------+
+
 timestamp is the primary key column for this table.
  
 
@@ -15,9 +14,9 @@ Write a SQL query for a report that provides the pairs (actor_id, director_id) w
 Example:
 
 ActorDirector table:
-+-------------+-------------+-------------+
-| actor_id    | director_id | timestamp   |
-+-------------+-------------+-------------+
+
+| actor_id    | director_id |  timestamp  |
+| :---        |    :----:   | :-------:   |
 | 1           | 1           | 0           |
 | 1           | 1           | 1           |
 | 1           | 1           | 2           |
@@ -25,12 +24,12 @@ ActorDirector table:
 | 1           | 2           | 4           |
 | 2           | 1           | 5           |
 | 2           | 1           | 6           |
-+-------------+-------------+-------------+
+
 
 Result table:
-+-------------+-------------+
-| actor_id    | director_id |
-+-------------+-------------+
+
+| actor_id    | director_id  |
+| :---:       |    :-----:  |
 | 1           | 1           |
-+-------------+-------------+
+
 The only pair is (1, 1) where they cooperated exactly 3 times.

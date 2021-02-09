@@ -1,8 +1,8 @@
 The Employee table holds all employees. The employee table has three columns: Employee Id, Company Name, and Salary.
 
-+-----+------------+--------+
+
 |Id   | Company    | Salary |
-+-----+------------+--------+
+|:---:|:----------:|--------|
 |1    | A          | 2341   |
 |2    | A          | 341    |
 |3    | A          | 15     |
@@ -20,15 +20,14 @@ The Employee table holds all employees. The employee table has three columns: Em
 |15   | C          | 2645   |
 |16   | C          | 2652   |
 |17   | C          | 65     |
-+-----+------------+--------+
+
 Write a SQL query to find the median salary of each company. Bonus points if you can solve it without using any built-in SQL functions.
 
-+-----+------------+--------+
+
 |Id   | Company    | Salary |
-+-----+------------+--------+
+|-----|:----------:|--------|
 |5    | A          | 451    |
 |6    | A          | 513    |
 |12   | B          | 234    |
 |9    | B          | 1154   |
 |14   | C          | 2645   |
-+-----+------------+--------+
